@@ -1,0 +1,24 @@
+{
+  "name": "la-cafeteria-web",
+  "version": "1.0.0",
+  "description": "La Cafetería Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juanjo Pareja",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.21",
+    "sass": "^1.60.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
