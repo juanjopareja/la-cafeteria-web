@@ -1,0 +1,42 @@
+@use 'base/variables' as var;
+@use 'base/mixins' as mix;
+
+.header {
+    padding: 5rem 0;
+    position: relative;
+
+    @include mix.tablet { 
+        min-height: 70rem;
+    }
+
+    &::before {
+        content: '';
+        background-color: var.$black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0.6;
+    }
+
+    .content-header {
+        position: relative;
+
+        h1 {
+            text-align: center;
+            color: var.$white;
+            text-transform: uppercase;
+            margin-top: 5rem;
+
+            @include mix.tablet { 
+                margin-top: 10rem;
+            }
+        }
+    }
+}
+
+// Each page header
+.header-start {
+    background-image: url(../img/header_start.jpg);
+}
