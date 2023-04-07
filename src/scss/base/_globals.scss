@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: var.$primaryFont;
+    font-family: var.$secondaryFont;
     font-size: 1.6rem;
     background-color: var.$lightCoffee;
 }
@@ -34,5 +34,11 @@ a {
 img {
     max-width: 100%;
     display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
