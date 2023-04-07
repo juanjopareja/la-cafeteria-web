@@ -10,13 +10,15 @@ html {
 }
 
 body {
-    font-family: var.$primary_font;
+    font-family: var.$primaryFont;
     font-size: 1.6rem;
+    background-color: var.$lightCoffee;
 }
 
 p {
     color: var.$black;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 .container {
@@ -34,18 +36,3 @@ img {
     display: block;
 }
 
-h1, h2, h3 {
-    margin: 0 0 var.$separation 0;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 3.6rem;
-}
-
-h3 {
-    font-size: 3.2rem;
-}
