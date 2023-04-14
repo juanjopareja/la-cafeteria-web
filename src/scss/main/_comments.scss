@@ -1,0 +1,26 @@
+@use 'base/variables' as var;
+@use 'base/mixins' as mix;
+
+.comments {
+    padding: 10rem 2rem;
+
+    @include mix.tablet { 
+        padding: 10rem;
+    }
+
+    .comment {
+        background-color: var.$lightCoffee;
+        padding: 2rem 4rem;
+        max-width: 50rem;
+        margin: 0 auto;
+        border-radius: 1rem;
+
+        .author {
+            text-align: right;
+            font-family: var.$italicFont;
+            font-size: 2.4rem;
+            color: var.$primary;
+        }
+    }
+}
+

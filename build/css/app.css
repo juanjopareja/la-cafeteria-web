@@ -403,6 +403,14 @@ h3 {
   background-color: #5E311E;
 }
 
+.margin-negative-10 {
+  margin-top: -10rem;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
 .header {
   padding: 5rem 0;
   position: relative;
@@ -665,4 +673,26 @@ h3 {
 .menu li .price {
   font-size: 4rem;
   font-weight: 700;
+}
+
+.comments {
+  padding: 10rem 2rem;
+}
+@media (min-width: 768px) {
+  .comments {
+    padding: 10rem;
+  }
+}
+.comments .comment {
+  background-color: #EBE7DE;
+  padding: 2rem 4rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.comments .comment .author {
+  text-align: right;
+  font-family: "Bona Nova", sans-serif;
+  font-size: 2.4rem;
+  color: #5E311E;
 }
