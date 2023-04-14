@@ -33,6 +33,19 @@ h2 {
     }
 }
 
+.white-heading {
+    @extend h2;
+    color: var.$white;
+
+    span {
+        color: var.$white;
+    }
+
+    &::after {
+        display: none;
+    }
+}
+
 h3 {
     font-size: 3.2rem;
 }
