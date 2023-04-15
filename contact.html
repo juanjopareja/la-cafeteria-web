@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cafetería - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-contact">
+        <div class="content-header container">
+            <div class="bar">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo cafetería">
+                </div>
+
+                <div class="main-nav">
+                    <a href="index.html">Inicio</a>
+                    <a href="about.html">Nosotros</a>
+                    <a href="process.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="gallery.html">Galería</a>
+                    <a class="active" href="contact.html">Contacto</a>
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h1>Mejores granos, mejor cáfe</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <h2><span>Reserva tu</span>mesa</h2>
+
+        <div class="contact-content">
+            <form>
+                <div class="field">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Tu Nombre">
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Tu Email">
+                </div>
+                <div class="field">
+                    <label for="email">Número de Personas:</label>
+                    <select>
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="more">+4</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="hour">Hora:</label>
+                    <input type="time" id="hour">
+                </div>
+                <div class="field">
+                    <label for="date">Fecha:</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="field">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content bg-white">
+            <div class="footer-box location">
+                <h3>Ubicación</h3>
+                <p>Av. Los Naranjos, 46</p>
+                <p>Valencia</p>
+            </div>
+            <div class="footer-box bookings">
+                <h3>Reservas</h3>
+                <p>Tel. 963878998</p>
+                <a href="tel:+0034963878998">Reservar</a>
+            </div>
+            <div class="footer-box timetable">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 9:00 - 00:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+        <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+    </footer>
+
+    </body>
+</html>

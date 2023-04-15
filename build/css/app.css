@@ -453,6 +453,10 @@ h3 {
   background-image: url(../img/header_gallery.jpg);
 }
 
+.header-contact {
+  background-image: url(../img/header_contact.jpg);
+}
+
 .main-nav {
   display: flex;
   flex-direction: column;
