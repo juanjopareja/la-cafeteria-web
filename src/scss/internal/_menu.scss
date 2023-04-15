@@ -1,6 +1,27 @@
 @use 'base/variables' as var;
 @use 'base/mixins' as mix;
 
-.header-menu {
-    
+.menu-content {
+    background-image: url(../img/coffee.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+    aspect-ratio: 3 / 6;
+
+    @include mix.mobile { 
+        aspect-ratio: 3 / 4;
+    }
+
+    @include mix.tablet { 
+        @include mix.grid(2, var.$separation);
+        aspect-ratio: 16 / 6;
+        background-size: 40%;
+        background-position: bottom right;
+    }
+
+    .text {
+        p {
+            font-size: 2rem;
+        }
+    }
 }

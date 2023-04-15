@@ -397,22 +397,6 @@ h3 {
   font-size: 3.2rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primary {
-  background-color: #5E311E;
-}
-
-.margin-negative-10 {
-  margin-top: -10rem;
-}
-
-.bg-white {
-  background-color: #FFFFFF;
-}
-
 .header {
   padding: 5rem 0;
   position: relative;
@@ -825,4 +809,50 @@ h3 {
   width: 50%;
   height: 5px;
   background-color: #C39C63;
+}
+
+.menu-content {
+  background-image: url(../img/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  aspect-ratio: 3/6;
+}
+@media (min-width: 480px) {
+  .menu-content {
+    aspect-ratio: 3/4;
+  }
+}
+@media (min-width: 768px) {
+  .menu-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    aspect-ratio: 16/6;
+    background-size: 40%;
+    background-position: bottom right;
+  }
+}
+.menu-content .text p {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primary {
+  background-color: #5E311E;
+}
+
+.margin-negative-10 {
+  margin-top: -10rem;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }
