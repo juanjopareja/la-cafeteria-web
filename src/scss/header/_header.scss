@@ -4,6 +4,8 @@
 .header {
     padding: 5rem 0;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include mix.tablet { 
         min-height: 70rem;
@@ -39,4 +41,8 @@
 // Each page header
 .header-start {
     background-image: url(../img/header_start.jpg);
+}
+
+.header-about {
+    background-image: url(../img/header_about.jpg);
 }

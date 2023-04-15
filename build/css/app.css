@@ -342,6 +342,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -415,6 +416,8 @@ h3 {
 .header {
   padding: 5rem 0;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (min-width: 768px) {
   .header {
@@ -448,6 +451,10 @@ h3 {
 
 .header-start {
   background-image: url(../img/header_start.jpg);
+}
+
+.header-about {
+  background-image: url(../img/header_about.jpg);
 }
 
 .main-nav {
