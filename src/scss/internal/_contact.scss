@@ -1,0 +1,50 @@
+@use 'base/variables' as var;
+@use 'base/mixins' as mix;
+
+.contact-content {
+    @include mix.tablet { 
+        @include mix.grid(2, var.$separation);
+        background-image: url(../img/coffee_grains.jpg);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 40%;
+    }
+}
+
+.form {
+    .field {
+        margin-bottom: 2rem;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        label {
+            text-transform: uppercase;
+            display: block;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        input:not([type="submit"]),
+        select {
+            width: 100%;
+            padding: 1rem;
+            border: .5rem solid var.$primary;
+        }
+
+        input[type="submit"] {
+            background-color: var.$primary;
+            width: 100%;
+            border: none;
+            padding: 1rem;
+            color: var.$white;
+            font-size: 2.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
