@@ -461,6 +461,10 @@ h3 {
   background-image: url(../img/header_process.jpg);
 }
 
+.header-menu {
+  background-image: url(../img/header_menu.jpg);
+}
+
 .main-nav {
   display: flex;
   flex-direction: column;
