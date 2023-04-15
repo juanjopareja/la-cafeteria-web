@@ -1,0 +1,45 @@
+@use 'base/variables' as var;
+@use 'base/mixins' as mix;
+
+.coffee-process {
+    margin-bottom: 5rem;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    @include mix.tablet { 
+        display: flex;
+        gap: var.$separation;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &:nth-child(even) {
+        .text {
+            order: -1;
+        }
+    }
+
+    .image, 
+    .text {
+        flex: 1;
+    }
+
+    .text {
+        margin-top: 1rem;
+
+        h3 {
+            margin: 0;
+            text-align: left;
+            color: var.$primary;
+            
+            &::after {
+                content: '';
+                display: block;
+                width: 50%;
+                height: 5px;
+                background-color: var.$secondary;
+            }
+        }
+    }
+}

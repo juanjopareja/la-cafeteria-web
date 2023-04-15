@@ -785,3 +785,40 @@ h3 {
   border-left: 0.5rem solid #5E311E;
   font-size: 2rem;
 }
+
+.coffee-process {
+  margin-bottom: 5rem;
+}
+.coffee-process:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .coffee-process {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}
+.coffee-process:nth-child(even) .text {
+  order: -1;
+}
+.coffee-process .image,
+.coffee-process .text {
+  flex: 1;
+}
+.coffee-process .text {
+  margin-top: 1rem;
+}
+.coffee-process .text h3 {
+  margin: 0;
+  text-align: left;
+  color: #5E311E;
+}
+.coffee-process .text h3::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background-color: #C39C63;
+}
