@@ -16,7 +16,7 @@ Página web de publicidad para una cafetería, que forma parte de un conjunto de
   * [Forest Architecture](https://github.com/juanjopareja/forest-architecture-web)
   * [Nucleus](https://github.com/juanjopareja/nucleus-web)
   * [La Cafetería](https://github.com/juanjopareja/la-cafeteria-web)
-  * DeliverEat
+  * [DeliverEat](https://github.com/juanjopareja/delivereat-web)
 
 ## Vista previa
 <p align="center"><br>
